@@ -7,10 +7,7 @@ def line(katz_deli)
    puts "The line is currently empty"
 end  
 
-def line(other_deli)
-  while line == "other_deli"
-    puts "This line is currently #{other_deli}."
-end
-
-def take_a_number(katz_deli)
-  katz_deli = []
+def take_a_number(katz_deli, other_deli)
+  if take_a_number == "katz_deli"
+    puts "#{line}"
+  else 
