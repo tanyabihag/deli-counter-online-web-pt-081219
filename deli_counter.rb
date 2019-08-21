@@ -6,7 +6,13 @@ def line(katz_deli)
    puts "The line is currently empty"
 end  
 
+
 def take_a_number(katz_deli, other_deli)
-  if take_a_number == "katz_deli"
+  counter = 1
+    if take_a_number == "other_deli"
+    customers.each do |customers|
+      puts "#{Customers} you are number #{counter}"
+      counter += 1
+  else take_a_number == "katz_deli"
     puts "#{line}"
-  else 
+  end
