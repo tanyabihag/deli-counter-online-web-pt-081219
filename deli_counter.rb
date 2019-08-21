@@ -1,3 +1,7 @@
+katz_deli = []
+other_deli = ["Logan", "Avi", "Spencer"]
+another_deli = [""]
+
 def line(katz_deli)
   while line == ""
    puts "The line is currently empty"
