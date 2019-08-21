@@ -16,3 +16,5 @@ def take_a_number(katz_deli, other_deli)
   else take_a_number == "katz_deli"
     puts "#{line}"
   end
+  
+  def no_serving 
