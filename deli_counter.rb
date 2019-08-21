@@ -8,13 +8,24 @@ end
 
 
 def take_a_number(katz_deli, other_deli)
-  counter = 1
+counter = 1
     if take_a_number == "other_deli"
     customers.each do |customers|
       puts "#{Customers} you are number #{counter}"
       counter += 1
-  else take_a_number == "katz_deli"
+  else 
     puts "#{line}"
   end
   
-  def no_serving 
+  def now_serving(katz_deli, other_deli) 
+  counter = 1
+   if now_serving == "other_deli"
+     customers.each do |customers|
+      puts  "Now serving #{customers}"
+      counter -= 1
+    else 
+      puts "There is nobody waiting to be served."
+      
+      
+        
+    
